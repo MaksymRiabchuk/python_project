@@ -1,0 +1,16 @@
+from SeqModel import *
+from functions import *
+
+# Creating our model
+model=createModel()
+
+# Comment if you don't want to clear models_predictions directory
+clearModelsPredictionsDirectory()
+
+# Giving model test_images to get predicted_results
+# Function copy given files to directory 'models_predictions'
+
+predictModel(model=model,image_paths=findTestImages())
+
+# This func run model's prediction wtih your images, in directory 'your_images'
+# predictModel(model=model,image_paths=findGivenImagesArray())
