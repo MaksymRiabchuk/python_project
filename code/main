@@ -2,7 +2,7 @@ from SeqModel import *
 from functions import *
 
 # Creating our model
-model=createModel()
+model=createModel(True)
 
 # Comment if you don't want to clear models_predictions directory
 clearModelsPredictionsDirectory()
